@@ -7,6 +7,17 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  isFab = true;
+  action: string;
+
   constructor() {}
+
+  onCancel(action: string) {
+
+  }
+
+  onValidate(action: string) {
+
+  }
 
 }
